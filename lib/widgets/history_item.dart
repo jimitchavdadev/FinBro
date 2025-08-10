@@ -43,7 +43,7 @@ class HistoryItem extends StatelessWidget {
             ],
           ),
           Text(
-            '-\₹${amount.toStringAsFixed(2)}',
+            '-₹${amount.toStringAsFixed(2)}',
             style: const TextStyle(
               color: Colors.white,
               fontSize: 16,

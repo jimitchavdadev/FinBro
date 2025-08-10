@@ -4,7 +4,7 @@ import 'package:intl/intl.dart';
 import 'package:finbro/services/expense_service.dart';
 
 class AddExpensePage extends StatefulWidget {
-  const AddExpensePage({Key? key}) : super(key: key);
+  const AddExpensePage({super.key});
 
   @override
   State<AddExpensePage> createState() => _AddExpensePageState();
@@ -59,7 +59,9 @@ class _AddExpensePageState extends State<AddExpensePage> {
               surface: Color(0xFF101323),
               onSurface: Colors.white,
             ),
-            dialogBackgroundColor: const Color(0xFF181d35),
+            dialogTheme: DialogThemeData(
+              backgroundColor: const Color(0xFF181d35),
+            ),
           ),
           child: child!,
         );

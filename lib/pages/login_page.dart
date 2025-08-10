@@ -3,7 +3,7 @@ import 'package:finbro/pages/home_page.dart';
 import 'package:finbro/services/auth_service.dart';
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key}) : super(key: key);
+  const LoginPage({super.key});
 
   @override
   State<LoginPage> createState() => _LoginPageState();

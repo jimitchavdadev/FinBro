@@ -7,10 +7,10 @@ class ExpenseDetailsPage extends StatelessWidget {
   final Function(Expense) onDelete;
 
   const ExpenseDetailsPage({
-    Key? key,
+    super.key,
     required this.expense,
     required this.onDelete,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

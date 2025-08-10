@@ -1,8 +1,14 @@
-FinBro - Personal Finance Manager 💰
+## FinBro - Personal Finance Manager 💰
 
 FinBro is a mobile application designed to help users track their personal expenses effortlessly. The app allows for manual entry of expenses, provides a detailed transaction history with filtering capabilities, and securely manages user data through a custom backend.
 
----
+## 📸 Screenshots
+
+A glimpse of the FinBro user interface.
+
+| Today Expenses | Expense History | Add Expense |
+| :---: | :---: | :---: |
+| <img src="screenshots/1.jpg" alt="today expenses page" width="250"/> | <img src="screenshots/2.jpg" alt="expense history page" width="250"/> | <img src="screenshots/3.jpg" alt="add expense screen" width="250"/> |
 
 ### 🎯 Objective
 
@@ -14,7 +20,6 @@ The primary goal of Finbro is to provide a simple, secure, and intuitive platfor
 * **Data Persistence**: All user data, including expenses and authentication tokens, are stored securely on a PostgreSQL database and in the app's local storage for a seamless experience.
 * **Offline Access**: The application caches transaction history, allowing users to view their past spending even without an internet connection.
 
----
 
 ### 💻 Project Structure
 
@@ -38,7 +43,6 @@ The project is divided into two main components: a **Flutter frontend** for the 
 * `test.sh`: A shell script for testing all backend API endpoints.
 * `package.json` & `tsconfig.json`: Configuration files for Node.js and TypeScript, ensuring a consistent and robust development environment.
 
----
 
 ### ⚙️ How It Works
 

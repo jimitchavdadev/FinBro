@@ -36,7 +36,7 @@ class ExpenseItem extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  '\₹$amount',
+                  '₹$amount',
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 16,
