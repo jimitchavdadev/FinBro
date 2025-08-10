@@ -1,0 +1,19 @@
+user comes to the screen
+he will click on add expenses,
+add expense modal window will open:
+it will have a button saying scan receipt or manual options like this: 
+add amount, category and notes,
+
+on clicking scan button it will open camera, user will take photo, the photo will be auto scanned by a lib 
+and it will show users the identified amount, category and make brief notes,
+
+once user hits enter after either of the above section, it will add up in his history and get saved in the both local 
+storage of user as well as the server,
+
+in the bottom there will be only two navigation options, 
+one will be the home, where the user will enter the expenses,
+
+the other one will be the history section where user can see all his expenses, we will give a filter icon,
+on hitting the filter icon it should show a filter modal window showing different categories, we can filter upon that and show user,
+
+also in the history card we will only show the date, amount and category, on clicking on the history card it will show a screen showing the date amount category and notes, give a delete option so that user can delete it as well

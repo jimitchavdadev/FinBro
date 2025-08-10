@@ -1,0 +1,10 @@
+android
+build
+ios
+linux
+.vscode
+macos
+test
+web
+windows
+.env
